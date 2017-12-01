@@ -1,0 +1,224 @@
+
+Search for TMD0 solution started
+Host name is                      zion.localdomain
+Start clock time:                 01-12-2017 12:41:06
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 1
+Search in 3 samples
+
+Max depth reached: 10
+Search in 4 samples
+
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 1
+Best price: 13013.53
+Iterations: 240
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 2
+Best price: 12707.34
+Iterations: 243
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 3
+Best price: 12527.66
+Iterations: 254
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 4
+Best price: 12347.99
+Iterations: 267
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 5
+Best price: 12180.33
+Iterations: 311
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 6
+Best price: 12012.67
+Iterations: 383
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 7
+Best price: 11845.01
+Iterations: 536
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 8
+Best price: 11795.29
+Iterations: 1351
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 9
+Best price: 11756.95
+Iterations: 5394
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 10
+Best price: 11728.95
+Iterations: 5613
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 11
+Best price: 11661.43
+Iterations: 6075
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 12
+Best price: 10451.53
+Iterations: 6945
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 13
+Best price: 10271.86
+Iterations: 6950
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 14
+Best price: 10145.34
+Iterations: 6955
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 15
+Best price: 9965.66
+Iterations: 6960
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 16
+Best price: 9893.02
+Iterations: 6992
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 17
+Best price: 9822.33
+Iterations: 7034
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 18
+Best price: 9749.68
+Iterations: 7044
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 19
+Best price: 9677.04
+Iterations: 7068
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 20
+Best price: 9654.67
+Iterations: 7093
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 21
+Best price: 9582.02
+Iterations: 7103
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 22
+Best price: 9509.38
+Iterations: 7127
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 23
+Best price: 9487.01
+Iterations: 7265
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 24
+Best price: 9414.36
+Iterations: 7275
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 25
+Best price: 9341.72
+Iterations: 7299
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 26
+Best price: 9313.71
+Iterations: 7609
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 27
+Best price: 9293.59
+Iterations: 9033
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 28
+Best price: 9271.87
+Iterations: 10854
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 29
+Best price: 9243.87
+Iterations: 11661
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 30
+Best price: 9189.79
+Iterations: 14021
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 31
+Best price: 9094.77
+Iterations: 14159
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 32
+Best price: 9022.13
+Iterations: 14221
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 33
+Best price: 9002.00
+Iterations: 15068
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 34
+Best price: 8952.28
+Iterations: 15488
+
+Elapsed time:  0 days 00:00:02
+Solutions found: 35
+Best price: 8924.11
+Iterations: 17853
+
+Elapsed time:  0 days 00:00:02
+Solutions found: 36
+Best price: 8896.10
+Iterations: 17928
+
+Elapsed time:  0 days 00:00:02
+Solutions found: 37
+Best price: 8875.98
+Iterations: 19983
+
+Elapsed time:  0 days 00:00:02
+Solutions found: 38
+Best price: 8854.26
+Iterations: 20141
+
+Elapsed time:  0 days 00:00:02
+Solutions found: 39
+Best price: 8826.26
+Iterations: 20214
+
+Elapsed time:  0 days 00:00:05
+Solutions found: 40
+Best price: 8823.15
+Iterations: 37455
+
+Evaluation Finished!
+Final clock time:                01-12-2017 12:41:17
+
+Final evaluation time DDHHMMSS:    0 days 00:00:10Final evaluation time (seconds): 10.975269079208374
+Final number of samples:         4
+Final number of iterations:      61972
+Final number of codes evaluated: 1486688

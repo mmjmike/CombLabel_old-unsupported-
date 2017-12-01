@@ -1,0 +1,18 @@
+job_name kvap
+sequence_file kvap.seq
+stock_file ../../Stocks_and_prices/LabelStock_Lohr.txt
+optimize_price Yes
+prices_file ../../Stocks_and_prices/BEST_PRICE_1H.csv
+start_samples 1
+
+#Please, specify the use of all 8 labeling types by '1' or '0'.
+#Order as follows: "X", "N", "C", "D", "A", "S", "T", "F"
+#You can see the description in ...
+#Use 1 1 1 0 0 0 0 0 as default
+labeling_types 1 1 1 1 0 0 0 0
+
+#Please, specify the use of all 7 spectra by '1' or '0'.
+#Order as follows: HSQC, HNCO, HNCA, HNCOCA, CO-HNCA, DQ-HNCA, HNCACO
+#You can see the description in ...
+#Use 1 1 0 0 0 0 0 as default
+spectra_types 1 1 1 1 0 1 0

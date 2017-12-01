@@ -1,0 +1,192 @@
+
+#################################################
+##
+##   When using this software to calculate CSL schemes, please, cite the following article:
+## 
+##   'CombLabel: rational design of optimized combinatorial labeling schemes.
+##   Application to backbone assignment of helical membrane proteins with
+##   limited stability'
+##   M.Yu. Myshkin, M.A. Dubinnyi, D.S. Kulbatskii, E.N. Lyukmanova, Z.O. Shenkarev 
+##   Journal of Biomolecular NMR, 2018 (currnetly unpublished)
+##
+#################################################
+#
+##################################################
+# Table of all amino acid pairs 
+# 
+# Number in the table represents how many times 
+# the pair occurs in the sequence 
+
+[full_pairs_table]
+   ,Leu,Ser,Lys,Phe,Ile,Ala,Val,Glu,Arg,Thr,Asn,Gly,Gln,Asp,Met,His,Trp,Tyr
+Leu,  3,  3,  1,  0,  0,  4,  0,  1,  3,  1,  2,  1,  3,  1,  0,  0,  1,  0
+Ser,  3,  2,  0,  0,  2,  0,  2,  0,  0,  3,  1,  1,  0,  0,  0,  1,  0,  0
+Lys,  2,  1,  2,  1,  1,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  1,  0
+Phe,  2,  0,  1,  1,  1,  0,  0,  0,  1,  2,  0,  1,  1,  0,  0,  0,  0,  0
+Ile,  4,  1,  0,  2,  1,  2,  1,  0,  0,  0,  0,  0,  0,  1,  2,  0,  0,  0
+Ala,  1,  0,  1,  0,  3,  1,  1,  1,  1,  0,  0,  0,  0,  0,  0,  1,  1,  0
+Val,  2,  1,  0,  0,  0,  1,  1,  1,  1,  1,  0,  0,  1,  0,  0,  0,  0,  0
+Glu,  1,  1,  2,  1,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1
+Arg,  0,  1,  1,  1,  3,  0,  1,  0,  2,  0,  0,  0,  0,  0,  0,  1,  0,  0
+Pro,  1,  0,  1,  0,  0,  0,  0,  1,  0,  0,  1,  0,  1,  0,  0,  0,  0,  1
+Thr,  2,  0,  0,  0,  2,  0,  0,  1,  0,  0,  0,  1,  0,  1,  1,  0,  0,  0
+Asn,  0,  1,  1,  0,  0,  1,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0
+Gly,  1,  1,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0
+Gln,  1,  3,  0,  1,  1,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0
+Asp,  2,  0,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0
+Met,  0,  0,  0,  1,  0,  1,  0,  1,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0
+His,  0,  1,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  5,  0,  0
+Trp,  0,  0,  1,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0
+Tyr,  1,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1
+
+##################################################
+# Table of amino acid pairs used for 
+# combinatorial labeling 
+# 
+# Number in the table represents how many times 
+# the pair occurs in the sequence 
+
+[pairs_table]
+   Res,Leu,Ser,Ile,Phe,Ala,Val,Gln,Asn,Gly,Lys,Trp,Thr,Asp,Glu,Met,Tyr,OtherN
+   Leu,  3,  3,  0,  0,  4,  0,  3,  2,  1,  1,  1,  1,  1,  1,  0,  0,  5
+   Ser,  3,  2,  2,  0,  0,  2,  0,  1,  1,  0,  0,  3,  0,  0,  0,  0,  2
+   Ile,  4,  1,  1,  2,  2,  1,  0,  0,  0,  0,  0,  0,  1,  0,  2,  0,  0
+   Phe,  2,  0,  1,  1,  0,  0,  1,  0,  1,  1,  0,  2,  0,  0,  0,  0,  1
+   Ala,  1,  0,  3,  0,  1,  1,  0,  0,  0,  1,  1,  0,  0,  1,  0,  0,  2
+   Val,  2,  1,  0,  0,  1,  1,  1,  0,  0,  0,  0,  1,  0,  1,  0,  0,  1
+   Gln,  1,  3,  1,  1,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0
+   Asn,  0,  1,  0,  0,  1,  1,  0,  0,  0,  1,  0,  1,  0,  0,  0,  0,  1
+   Gly,  1,  1,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1
+   Trp,  0,  0,  0,  1,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0
+OtherC,  9,  4,  6,  4,  2,  3,  1,  2,  2,  6,  1,  0,  1,  4,  1,  3, 11
+
+OtherN: Arg,Pro,His
+OtherC: Lys,Glu,Arg,Pro,Thr,Asp,Met,His,Tyr
+
+
+##################################################
+# Spectrum codes table
+#
+# The spectrum code is in the first column
+# Flag of the peak presence (0 or 1) for each spectrum
+
+[codes]
+Code,   HSQC,   HNCO
+   0,      0,      0
+   1,      1,      0
+   2,      1,      1
+
+
+##################################################
+# Spectrum code for each labeling pair 
+#
+# One-letter codes in the headers of columns# and rows are the labeling types 
+# Don't confuse with one-letter amino acid codes
+
+[code_pairs]
+ , X, N, C, D
+X, 0, 1, 0, 1
+N, 0, 1, 0, 1
+C, 0, 2, 0, 2
+D, 0, 2, 0, 2
+
+##################################################
+# The list of solutions found        
+#
+
+[solution]
+% Solution number = 11
+% Solution price  = 6673.28
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Ile,   N,   N,   D,   N,   N
+Phe,   N,   C,   N,   N,   X
+Ala,   N,   C,   N,   C,   N
+Val,   C,   D,   D,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   D,   X,   X,   N,   D
+Gly,   C,   N,   C,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   X,   X,   X,   D,   N
+Thr,   N,   N,   X,   N,   X
+Asp,   X,   X,   N,   N,   N
+Glu,   X,   N,   N,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   X
+Pro,   X,   X,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+
+
+##################################################
+# Spectrum codes of the labeled amino acid pairs 
+#
+# Amino acid and labeling code strings 
+# according to the number of samples are in the headers
+# Spectrum codes are in the table
+
+[pairs_codes]
+      ,     ,  Leu,  Ser,  Ile,  Phe,  Ala,  Val,  Gln,  Asn,  Gly,  Lys,  Trp,  Thr,  Asp,  Glu,  Met,  Tyr,OtherN
+      ,     ,NNNNC,NNNCN,NNDNN,NCNNX,NCNCN,CDDNN,DDXXD,DXXND,CNCNN,NNXNN,XXXDN,NNXNX,XXNNN,XNNXN,XXNXX,NXXXX,XXXXX
+   Leu,NNNNC,11110,11102,     ,     ,10102,     ,11002,10012,01012,11012,00012,11010,00112,01102,     ,     ,00000
+   Ser,NNNCN,11120,11101,11121,     ,     ,01121,     ,10021,01021,     ,     ,11020,     ,     ,     ,     ,00000
+   Ile,NNDNN,11210,11201,11211,10210,10201,01211,     ,     ,     ,     ,     ,     ,00211,     ,00200,     ,     
+   Phe,NCNNX,12110,     ,12111,10110,     ,     ,12001,     ,02011,12011,     ,12010,     ,     ,     ,     ,00000
+   Ala,NCNCN,12120,     ,12121,     ,10101,02121,     ,     ,     ,12021,00021,     ,     ,02101,     ,     ,00000
+   Val,CDDNN,22210,22201,     ,     ,20201,02211,22001,     ,     ,     ,     ,22010,     ,02201,     ,     ,00000
+   Gln,DDXXD,22110,22102,22112,20110,     ,     ,     ,20012,     ,     ,     ,     ,     ,     ,     ,     ,     
+   Asn,DXXND,     ,21102,     ,     ,20102,01112,     ,     ,     ,21012,     ,21010,     ,     ,     ,     ,00000
+   Gly,CNCNN,21210,21201,     ,20210,     ,     ,21001,     ,     ,     ,     ,     ,     ,     ,     ,     ,00000
+   Trp,XXXDN,     ,     ,     ,10120,     ,     ,     ,     ,     ,11021,     ,     ,00121,     ,     ,     ,     
+OtherC,XXXXX,11110,11101,11111,10110,10101,01111,11001,10011,01011,11011,00011,     ,00111,01101,00100,10000,00000
+
+OtherN: Arg,Pro,His
+OtherC: Lys,Glu,Arg,Pro,Thr,Asp,Met,His,Tyr
+
+
+##################################################
+# Calculation statistics
+# 
+
+[stats]
+
+
+# Statistics for PAIRS in amino acid sequence
+# The STOCK (availability of isotopically labeled amino acid)
+# is NOT accounted for in this statistics
+# The labeling scheme is NOT accounted too
+
+[stats,pairs]
+Par, Description,  Residues, Pairs
+N,   Total number,      168,   121
+PI,  Invisible,           6,     5
+PU,  Unique,             87,    87
+PN,  Non-unique,         74,    29
+
+# Statistics for STOCK-available pairs in amino acid sequence
+# The STOCK is used to check whether the particular pairs are distinguishable 
+# in principle with some labeling scheme unlimited in size with some NMR spectra
+# The particular labeling scheme, found by the program, is NOT accounted here
+
+[stats,stock]
+Par, Description,     Residues, Pairs
+N,   Total number,         168,   121
+SI,  Invisible,             24,    13
+SU,  Unique code,           47,    47
+SN2, AA type of both,       44,    17
+SN1, AA type of last,       52,    41
+
+# Statistics for LABELING CODES
+# The pairs are distinguishable, if their labeling codes are different
+# Both sequence, stock, NMR spectra and particular labeling scheme is accounted here
+
+[stats,labeling]
+Par, Description,     Residues, Pairs
+N,   Total number,         168,   121
+LI,  Invisible,             24,    16
+LU,  Unique code,           47,    47
+LN2, AA type of both,       44,    17
+LN1, AA type of last,       52,    41
+LA,  Ambiguous code,         0,     0

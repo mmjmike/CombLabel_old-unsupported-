@@ -1,0 +1,118 @@
+
+Search for Kv21_NCD4 solution started
+Host name is                      zion.localdomain
+Start clock time:                 01-12-2017 13:11:55
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 1
+Search in 3 samples
+
+Max depth reached: 4
+Search in 4 samples
+
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 1
+Best price: 6831.10
+Iterations: 745
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 2
+Best price: 6781.38
+Iterations: 749
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 3
+Best price: 6760.89
+Iterations: 768
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 4
+Best price: 6711.17
+Iterations: 772
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 5
+Best price: 6565.72
+Iterations: 833
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 6
+Best price: 6516.00
+Iterations: 837
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 7
+Best price: 6495.52
+Iterations: 856
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 8
+Best price: 6445.80
+Iterations: 860
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 9
+Best price: 6300.35
+Iterations: 912
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 10
+Best price: 6250.63
+Iterations: 916
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 11
+Best price: 6230.15
+Iterations: 935
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 12
+Best price: 6180.43
+Iterations: 939
+
+Elapsed time:  0 days 00:00:12
+Solutions found: 13
+Best price: 6173.34
+Iterations: 77788
+
+Elapsed time:  0 days 00:00:12
+Solutions found: 14
+Best price: 6152.85
+Iterations: 77807
+
+Elapsed time:  0 days 00:00:12
+Solutions found: 15
+Best price: 6103.13
+Iterations: 77811
+
+Elapsed time:  0 days 00:00:17
+iteration: 100000; iterations/min: 346447.6
+curr best price: 6103.13381
+Current state price: 1329.50144
+Number of samples:4
+Depth:6
+Leu,NNNC
+Ser,NNCN
+Ile,DDDN
+Phe,NCNN
+Ala,CNXN
+Val,DNDD
+Arg,XXXX
+Pro,XXXX
+His,XXXX
+Codes calculated:1911579
+
+
+Evaluation Finished!
+Final clock time:                01-12-2017 13:12:29
+
+Final evaluation time DDHHMMSS:    0 days 00:00:34
+Final evaluation time (seconds): 34.0661838054657
+Final number of samples:         4
+Final number of iterations:      169420
+Final number of codes evaluated: 4026570

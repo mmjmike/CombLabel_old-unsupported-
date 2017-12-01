@@ -1,0 +1,12 @@
+#################################################
+# Spectrum code for each labeling pair 
+#
+# One-letter code in the header is the labeling code 
+# Don't confuse with one-letter amino acid code
+# The spectrum code is in the table
+
+,X,N,C
+X,0,1,0
+N,0,1,0
+C,0,2,0
+

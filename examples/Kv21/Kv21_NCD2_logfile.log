@@ -1,0 +1,115 @@
+
+Search for Kv21_NCD2 solution started
+Host name is                      zion.localdomain
+Start clock time:                 01-12-2017 12:55:33
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 0
+Search in 3 samples
+
+Max depth reached: 0
+Search in 4 samples
+
+Max depth reached: 2
+Search in 5 samples
+
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 1
+Best price: 6896.08
+Iterations: 1164
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 2
+Best price: 6846.36
+Iterations: 1172
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 3
+Best price: 6825.88
+Iterations: 1203
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 4
+Best price: 6776.16
+Iterations: 1211
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 5
+Best price: 6755.67
+Iterations: 1250
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 6
+Best price: 6705.95
+Iterations: 1258
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 7
+Best price: 6701.53
+Iterations: 3051
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 8
+Best price: 6701.29
+Iterations: 4540
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 9
+Best price: 6692.74
+Iterations: 4796
+
+Elapsed time:  0 days 00:00:09
+Solutions found: 10
+Best price: 6689.46
+Iterations: 47932
+
+Elapsed time:  0 days 00:00:09
+Solutions found: 11
+Best price: 6673.28
+Iterations: 48003
+
+Elapsed time:  0 days 00:00:19
+iteration: 100000; iterations/min: 311032.0
+curr best price: 6673.28444
+Current state price: 2675.08239
+Number of samples:5
+Depth:8
+Leu,NNNNC
+Ser,NNNCN
+Ile,NNDNN
+Phe,NCNCN
+Ala,CNNXN
+Val,DCDDX
+Gln,DXXDD
+Asn,DDDND
+Arg,XXXXX
+Pro,XXXXX
+His,XXXXX
+Codes calculated:1778547
+
+
+Elapsed time:  0 days 00:00:40
+iteration: 200000; iterations/min: 298214.7
+curr best price: 6673.28444
+Current state price: 2516.8968499999996
+Number of samples:5
+Depth:9
+Leu,NNNNC
+Ser,NNNCN
+Ile,NNDND
+Phe,NNCCN
+Ala,NCNNN
+Val,CDDDX
+Gln,DXXDD
+Asn,XDXDD
+Gly,CCNNN
+Arg,XXXXX
+Pro,XXXXX
+His,XXXXX
+Codes calculated:3610480
+
